@@ -31,3 +31,10 @@ ul li {
   display: inline-block;
   color: #3783a3;
 }
+
+.button {
+  background-color: #fff;
+  border: 5px #3783a3;
+  padding: .5em;
+
+}
