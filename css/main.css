@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  padding: 1rem;
 }
 
 img {
@@ -26,8 +27,12 @@ img {
   width: 100%;
 }
 
+header {
+  text-align: center;
+}
+
 h1, p {
-  max-width: 30em;
+  max-width: 20em;
 }
 
 i {
@@ -35,12 +40,12 @@ i {
 }
 
 ul li {
+  justify-content: space-between;
   list-style-type: none;
   display: inline-block;
 }
 
 li a {
-  justify-content: space-around;
   color: #3783a3;
 }
 
@@ -50,6 +55,10 @@ li a {
   border-radius: .3rem;
   color: #3783a3;
   padding: .5em;
+}
+
+footer {
+  text-align: center;
 }
 
 @media only screen and (min-width: 38em) {
