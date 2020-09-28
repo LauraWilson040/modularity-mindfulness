@@ -27,7 +27,7 @@ img {
   width: 100%;
 }
 
-header {
+header, main {
   text-align: center;
 }
 
@@ -37,6 +37,7 @@ h1, p {
 
 i {
   font-weight: normal;
+  padding-bottom: 0;
 }
 
 ul li {
