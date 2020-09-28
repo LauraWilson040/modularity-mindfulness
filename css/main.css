@@ -26,9 +26,21 @@ img {
   width: 100%;
 }
 
+h1, p {
+  max-width: 30em;
+}
+
+i {
+  font-weight: normal;
+}
+
 ul li {
   list-style-type: none;
   display: inline-block;
+}
+
+li a {
+  justify-content: space-around;
   color: #3783a3;
 }
 
@@ -36,6 +48,7 @@ ul li {
   background-color: #fff;
   border: .2rem solid #3783a3;
   border-radius: .3rem;
+  color: #3783a3;
   padding: .5em;
 }
 
