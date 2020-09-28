@@ -55,13 +55,16 @@ i {
   padding-bottom: 0;
 }
 
+p {
+  padding-bottom: .5rem;
+}
+
 .button {
   background-color: #fff;
   border: .2rem solid #3783a3;
   border-radius: .3rem;
   color: #3783a3;
   padding: .5em;
-  opacity: .5;
 }
 
 footer {
