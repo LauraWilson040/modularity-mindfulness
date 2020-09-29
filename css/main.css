@@ -80,6 +80,11 @@ img {
   width: 100%;
 }
 
+.jpntitle {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 .rockgarden {
   font-weight: bold;
   padding-bottom: 0;
