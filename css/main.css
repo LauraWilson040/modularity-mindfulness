@@ -139,6 +139,10 @@ div:first-child {
   padding-top: 0;
 }
 
+.viewing {
+  padding-top: .5rem;
+}
+
 .bodycontent {
   padding-bottom: .5rem;
 }
