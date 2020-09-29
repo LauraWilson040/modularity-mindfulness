@@ -212,6 +212,10 @@ footer {
     display: flex;
   }
 
+  .gravel, .symbolism {
+    padding-top: .5rem;
+  }
+
   div:first-child {
     border-top: none;
     padding-top: 0;
