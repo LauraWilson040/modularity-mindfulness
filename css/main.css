@@ -52,6 +52,8 @@ header, main {
 }
 
 main {
+  padding-right: 1rem;
+  padding-left: 1rem;
   grid-area: box2;
 }
 
@@ -75,7 +77,8 @@ img {
 
 .rockgarden {
   font-weight: bold;
-  padding: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 nav ul {
@@ -131,8 +134,7 @@ footer {
     grid-template-areas:
       "box1 box1 box1"
       "box2 box2 box2"
-      "box3 box3 box3"
-      "box4 box4 box4";
+      "box3 box3 box3";
   }
 
   body img {
@@ -171,7 +173,8 @@ footer {
   }
 
   footer {
-    grid-area: box4;
+    border-top: 2px solid #e2e2e2;
+    text-align: center;
   }
 
 }
