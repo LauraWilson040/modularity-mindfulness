@@ -23,6 +23,7 @@ body {
 }
 
 img {
+  padding-top: .5em;
   display: block;
   width: 100%;
 }
@@ -50,9 +51,12 @@ main {
   max-width: 15em;
 }
 
-i {
+h1 {
   font-weight: normal;
-  padding-bottom: 0;
+}
+
+h2, h3 {
+  font-weight: bold;
 }
 
 p {
@@ -80,7 +84,8 @@ footer {
     grid-template-areas:
       "box1 box1 box1"
       "box2 box2 box2"
-      "box3 box3 box3";
+      "box3 box3 box3"
+      "box4 box4 box4";
   }
 
   body img {
@@ -89,6 +94,8 @@ footer {
   }
 
   header {
+    justify-content: space-between;
+    display: inline-block;
     grid-area: box1;
   }
 
@@ -114,6 +121,10 @@ footer {
     align-items: stretch;
     flex-direction: row;
     display: flex;
+  }
+
+  footer {
+    grid-area: box4;
   }
 
 }
