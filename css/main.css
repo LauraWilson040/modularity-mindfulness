@@ -42,9 +42,17 @@ header {
   grid-area: box1;
 }
 
+header:last-child {
+  border-bottom: 2px solid #e2e2e2;
+  padding-top: .5em;
+}
+
+header, main {
+  text-align: center;
+}
+
 main {
   grid-area: box2;
-  max-width: 15em;
 }
 
 section:nth-of-type(1) {
@@ -65,22 +73,22 @@ img {
   width: 100%;
 }
 
-header, main {
-  text-align: center;
+.rockgarden {
+  font-weight: bold;
+  padding: 0;
+}
+
+nav ul {
+  padding-left: 0;
 }
 
 ul li {
-  justify-content: space-between;
-  list-style-type: none;
   display: inline-block;
+  list-style-type: none;
 }
 
 li a {
   color: #3783a3;
-}
-
-hr {
-  border: 1.5px solid #e2e2e2;
 }
 
 h1 {
@@ -91,12 +99,13 @@ h2, h3 {
   font-weight: bold;
 }
 
-h3 {
-  padding: 0;
-}
-
 p {
   padding-bottom: .5rem;
+}
+
+div:first-child {
+  border-top: 2px solid #e2e2e2;
+  padding-top: .5em;
 }
 
 .button {
@@ -105,10 +114,11 @@ p {
   border-radius: .3rem;
   color: #3783a3;
   padding: .5em;
-  opacity: .75;
+  opacity: .5;
 }
 
 footer {
+  border-top: 2px solid #e2e2e2;
   text-align: center;
 }
 
