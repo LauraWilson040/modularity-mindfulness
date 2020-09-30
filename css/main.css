@@ -186,29 +186,29 @@ footer {
 
   .jpntitle {
     display: inline-flex;
+    padding-left: .5rem;
     text-align: left;
     float: left;
   }
 
   .rockgarden {
     display: inline-flex;
-    padding-top: 2em;
+    padding-left: .5rem;
     text-align: left;
+    width: 100%;
     float: left;
   }
 
   nav {
     display: inline-block;
     font-size: 1.125em;
-    text-align: right;
-    padding-top: 2em;
+    padding-right: 0;
     float: right;
   }
 
   main {
     padding-right: 4rem;
     padding-left: 4rem;
-    max-width: 40em;
     grid-area: box2;
   }
 
@@ -242,6 +242,10 @@ footer {
     padding-top: 1rem;
   }
 
+  .symbolism {
+    padding-top: 2rem;
+  }
+
   div:first-child {
     border-top: none;
     padding-top: 0;
@@ -254,6 +258,10 @@ footer {
   ul li {
     list-style-type: none;
     display: inline-flex;
+  }
+
+  .button {
+    opacity: .5;
   }
 
   footer {
