@@ -100,24 +100,6 @@ img {
   margin: 0;
 }
 
-nav ul {
-  padding-bottom: .5em;
-  padding-left: 0;
-  margin: 0;
-}
-
-ul li {
-  justify-content: space-between;
-  display: inline-block;
-  list-style-type: none;
-}
-
-li a {
-  padding-right: .5rem;
-  padding-left: .5rem;
-  color: #3783a3;
-}
-
 h1 {
   font-weight: normal;
 }
@@ -136,7 +118,25 @@ h3 {
   padding-top: 0;
 }
 
-div:first-child {
+nav ul {
+  padding-bottom: .5em;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul li {
+  justify-content: space-between;
+  display: inline-block;
+  list-style-type: none;
+}
+
+li a {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #3783a3;
+}
+
+article:first-child {
   border-top: 3px solid #e2e2e2;
   padding-top: .5em;
 }
@@ -205,13 +205,6 @@ footer {
     float: left;
   }
 
-  nav {
-    display: inline-block;
-    font-size: 1.125em;
-    padding-right: 0;
-    float: right;
-  }
-
   main {
     padding-right: 4rem;
     padding-left: 4rem;
@@ -244,17 +237,11 @@ footer {
     display: flex;
   }
 
-  .viewing, .gravel, .symbolism {
-    padding-top: 1rem;
-  }
-
-  .symbolism {
-    padding-top: 2rem;
-  }
-
-  div:first-child {
-    border-top: none;
-    padding-top: 0;
+  nav {
+    display: inline-block;
+    font-size: 1.125em;
+    padding-right: 0;
+    float: right;
   }
 
   nav ul {
@@ -264,6 +251,24 @@ footer {
   ul li {
     list-style-type: none;
     display: inline-flex;
+  }
+
+  article {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+  }
+
+  article:first-child {
+    border-top: none;
+  }
+
+  .viewing, .gravel, .symbolism {
+    padding-top: 1rem;
+  }
+
+  .symbolism {
+    padding-top: 2rem;
   }
 
   .button {
