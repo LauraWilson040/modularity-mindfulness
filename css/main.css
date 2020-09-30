@@ -66,6 +66,7 @@ main {
   padding-right: 1rem;
   padding-left: 1rem;
   grid-area: box2;
+  margin: 0;
 }
 
 section:nth-of-type(1) {
@@ -171,8 +172,8 @@ footer {
 
   body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "box1 box1 box1"
       "box2 box2 box2"
@@ -208,11 +209,12 @@ footer {
   main {
     padding-right: 4rem;
     padding-left: 4rem;
+    max-width: 20em;
     grid-area: box2;
   }
 
   .mainsub {
-    padding-bottom: 1rem;
+    padding-bottom: 0;
   }
 
   section:nth-of-type(1) {
